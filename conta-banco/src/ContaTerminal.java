@@ -1,15 +1,14 @@
 import java.util.Scanner; //para receber input de dados
-import java.util.Locale; //para ativar o ponto decimal do valor
+import java.util.Locale;  //para ativar o ponto decimal do valor
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         
-        Scanner scan
-        ner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner  scanner = new Scanner(System.in).useLocale(Locale.US);
       
         System.out.println("** Bem vindo ao banco TESTE **");
         System.out.println("Por favor, digite seu nome ");
-        String nomeCliente = scanner.next(); //entende apenas uma palavra no nome -> entender melhor
+        String nomeCliente = scanner.next(); //aceita apenas uma palavra como nome -> entender melhor como funciona
         System.out.println("Informe sua agência ");
         String agencia = scanner.next();
         System.out.println("Informe sua conta ");
