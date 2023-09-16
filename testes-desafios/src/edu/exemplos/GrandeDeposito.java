@@ -1,3 +1,4 @@
+package edu.exemplos;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
